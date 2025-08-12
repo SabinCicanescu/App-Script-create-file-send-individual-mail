@@ -38,7 +38,7 @@ function sendmail() {
     var emailAddress = row[2]; 
     if (emailAddress != "") 
     {
-    var ss = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/1bVEZVuvOtwWZ9R2eac8wBMjoEU8oY7WuSNVcsj2J7Sc/edit#gid=0");
+    var ss = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/1bVEZVuvOtwWZ9R2e......./edit#gid=0");
     var tab = ss.getSheetByName("DATA");
     var tab2 = ss.getSheetByName("D1");
     var sheet = ss.getSheetByName("P1");
